@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DEAR MUSIC_co</title>
+
+  <!-- IMPORTANT : rend le site responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+      margin: 0;
+      background: #0b0b0b;
+      color: #f5f2e9;
+      font-family: "Georgia", serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 900px;
+      width: 100%;
+    }
+
+    h1 {
+      letter-spacing: 6px;
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      opacity: 0.8;
+      margin-bottom: 50px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 12px 34px;
+      border-radius: 30px;
+      border: 1px solid #f5f2e9;
+      text-decoration: none;
+      color: #f5f2e9;
+      letter-spacing: 2px;
+      font-size: 12px;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #f5f2e9;
+      color: #0b0b0b;
+    }
+
+    /* 📱 VERSION MOBILE */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 32px;
+        letter-spacing: 4px;
+      }
+
+      .subtitle {
+        font-size: 13px;
+        margin-bottom: 40px;
+      }
+
+      .buttons {
+        flex-direction: column;
+        gap: 18px;
+      }
+
+      .btn {
+        width: 100%;
+        max-width: 260px;
+        margin: 0 auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>DEAR MUSIC_co</h1>
+    <div class="subtitle">
+      We do not shape idols — we awaken what already exists.
+    </div>
+
+    <div class="buttons">
+      <a href="principles.html" class="btn">EXPLORE</a>
+      <a href="apply.html" class="btn">APPLY</a>
+    </div>
+  </div>
+</body>
+</html>
